@@ -1,0 +1,1936 @@
+{
+  "final_standings": [
+    "('conservative_bot', 3000, 1)",
+    "('random_bot', 0, 2)",
+    "('aggressive_bot', 0, 3)"
+  ],
+  "tournament_duration": 0.589632511138916,
+  "total_hands": 255,
+  "settings": {
+    "starting_chips": 1000,
+    "tournament_type": "freeze_out",
+    "blind_levels": "10/20",
+    "time_limit": 10.0
+  },
+  "bot_stats": {
+    "conservative_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    },
+    "random_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    },
+    "aggressive_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    }
+  },
+  "hand_histories": [
+    {
+      "hand_number": 206,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1793,
+        "conservative_bot": 1207
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1833
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1167
+        }
+      }
+    },
+    {
+      "hand_number": 207,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1833,
+        "conservative_bot": 1167
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1813,
+          "conservative_bot": 1157
+        }
+      }
+    },
+    {
+      "hand_number": 208,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1813,
+        "conservative_bot": 1187
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 181,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 191
+        },
+        "final_chips": {
+          "random_bot": 1632,
+          "conservative_bot": 1177
+        }
+      }
+    },
+    {
+      "hand_number": 209,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1823,
+        "conservative_bot": 1177
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 1777,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1787
+        },
+        "final_chips": {
+          "random_bot": 46,
+          "conservative_bot": 1167
+        }
+      }
+    },
+    {
+      "hand_number": 210,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1833,
+        "conservative_bot": 1167
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1813,
+          "conservative_bot": 1157
+        }
+      }
+    },
+    {
+      "hand_number": 211,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1843,
+        "conservative_bot": 1157
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1823,
+          "conservative_bot": 1147
+        }
+      }
+    },
+    {
+      "hand_number": 212,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1823,
+        "conservative_bot": 1177
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 1791,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1801
+        },
+        "final_chips": {
+          "random_bot": 32,
+          "conservative_bot": 1167
+        }
+      }
+    },
+    {
+      "hand_number": 213,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1833,
+        "conservative_bot": 1167
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1813,
+          "conservative_bot": 1157
+        }
+      }
+    },
+    {
+      "hand_number": 214,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1813,
+        "conservative_bot": 1187
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1793,
+          "conservative_bot": 1177
+        }
+      }
+    },
+    {
+      "hand_number": 215,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1793,
+        "conservative_bot": 1207
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1773,
+          "conservative_bot": 1197
+        }
+      }
+    },
+    {
+      "hand_number": 216,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1803,
+        "conservative_bot": 1197
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1813
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1187
+        }
+      }
+    },
+    {
+      "hand_number": 217,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1813,
+        "conservative_bot": 1187
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1793,
+          "conservative_bot": 1177
+        }
+      }
+    },
+    {
+      "hand_number": 218,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1793,
+        "conservative_bot": 1207
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 1773,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1783
+        },
+        "final_chips": {
+          "random_bot": 20,
+          "conservative_bot": 1197
+        }
+      }
+    },
+    {
+      "hand_number": 219,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1803,
+        "conservative_bot": 1197
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1783,
+          "conservative_bot": 1187
+        }
+      }
+    },
+    {
+      "hand_number": 220,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1783,
+        "conservative_bot": 1217
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1763,
+          "conservative_bot": 1207
+        }
+      }
+    },
+    {
+      "hand_number": 221,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1763,
+        "conservative_bot": 1237
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1743,
+          "conservative_bot": 1227
+        }
+      }
+    },
+    {
+      "hand_number": 222,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1773,
+        "conservative_bot": 1227
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1783
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1217
+        }
+      }
+    },
+    {
+      "hand_number": 223,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1783,
+        "conservative_bot": 1217
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1793
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1207
+        }
+      }
+    },
+    {
+      "hand_number": 224,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1793,
+        "conservative_bot": 1207
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1773,
+          "conservative_bot": 1197
+        }
+      }
+    },
+    {
+      "hand_number": 225,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1803,
+        "conservative_bot": 1197
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 963,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 973
+        },
+        "final_chips": {
+          "random_bot": 840,
+          "conservative_bot": 1187
+        }
+      }
+    },
+    {
+      "hand_number": 226,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1813,
+        "conservative_bot": 1187
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1793,
+          "conservative_bot": 1177
+        }
+      }
+    },
+    {
+      "hand_number": 227,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1793,
+        "conservative_bot": 1207
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 1370,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1380
+        },
+        "final_chips": {
+          "random_bot": 423,
+          "conservative_bot": 1197
+        }
+      }
+    },
+    {
+      "hand_number": 228,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1803,
+        "conservative_bot": 1197
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1813
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1187
+        }
+      }
+    },
+    {
+      "hand_number": 229,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1813,
+        "conservative_bot": 1187
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1793,
+          "conservative_bot": 1177
+        }
+      }
+    },
+    {
+      "hand_number": 230,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1823,
+        "conservative_bot": 1177
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1803,
+          "conservative_bot": 1167
+        }
+      }
+    },
+    {
+      "hand_number": 231,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1803,
+        "conservative_bot": 1197
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1813
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1187
+        }
+      }
+    },
+    {
+      "hand_number": 232,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1813,
+        "conservative_bot": 1187
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1793,
+          "conservative_bot": 1177
+        }
+      }
+    },
+    {
+      "hand_number": 233,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1793,
+        "conservative_bot": 1207
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 781,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 791
+        },
+        "final_chips": {
+          "random_bot": 1012,
+          "conservative_bot": 1197
+        }
+      }
+    },
+    {
+      "hand_number": 234,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1803,
+        "conservative_bot": 1197
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1783,
+          "conservative_bot": 1187
+        }
+      }
+    },
+    {
+      "hand_number": 235,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1813,
+        "conservative_bot": 1187
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1823
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1177
+        }
+      }
+    },
+    {
+      "hand_number": 236,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1823,
+        "conservative_bot": 1177
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1833
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1167
+        }
+      }
+    },
+    {
+      "hand_number": 237,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1833,
+        "conservative_bot": 1167
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1843
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1157
+        }
+      }
+    },
+    {
+      "hand_number": 238,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1843,
+        "conservative_bot": 1157
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 244,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 254
+        },
+        "final_chips": {
+          "random_bot": 1599,
+          "conservative_bot": 1147
+        }
+      }
+    },
+    {
+      "hand_number": 239,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1853,
+        "conservative_bot": 1147
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1833,
+          "conservative_bot": 1137
+        }
+      }
+    },
+    {
+      "hand_number": 240,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1833,
+        "conservative_bot": 1167
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 60
+        },
+        "final_chips": {
+          "random_bot": 1813,
+          "conservative_bot": 1127
+        }
+      }
+    },
+    {
+      "hand_number": 241,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1813,
+        "conservative_bot": 1187
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1793,
+          "conservative_bot": 1177
+        }
+      }
+    },
+    {
+      "hand_number": 242,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1823,
+        "conservative_bot": 1177
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 842,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 852
+        },
+        "final_chips": {
+          "random_bot": 981,
+          "conservative_bot": 1167
+        }
+      }
+    },
+    {
+      "hand_number": 243,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1833,
+        "conservative_bot": 1167
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 915,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 925
+        },
+        "final_chips": {
+          "random_bot": 918,
+          "conservative_bot": 1157
+        }
+      }
+    },
+    {
+      "hand_number": 244,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1843,
+        "conservative_bot": 1157
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1853
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1147
+        }
+      }
+    },
+    {
+      "hand_number": 245,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1853,
+        "conservative_bot": 1147
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 957,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 967
+        },
+        "final_chips": {
+          "random_bot": 896,
+          "conservative_bot": 1137
+        }
+      }
+    },
+    {
+      "hand_number": 246,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1863,
+        "conservative_bot": 1137
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1843,
+          "conservative_bot": 1127
+        }
+      }
+    },
+    {
+      "hand_number": 247,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1843,
+        "conservative_bot": 1157
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1823,
+          "conservative_bot": 1147
+        }
+      }
+    },
+    {
+      "hand_number": 248,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1823,
+        "conservative_bot": 1177
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 1743,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1753
+        },
+        "final_chips": {
+          "random_bot": 80,
+          "conservative_bot": 1167
+        }
+      }
+    },
+    {
+      "hand_number": 249,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1833,
+        "conservative_bot": 1167
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1843
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1157
+        }
+      }
+    },
+    {
+      "hand_number": 250,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1843,
+        "conservative_bot": 1157
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1853
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 1147
+        }
+      }
+    },
+    {
+      "hand_number": 251,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1853,
+        "conservative_bot": 1147
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 71,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 98,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 169
+        },
+        "final_chips": {
+          "random_bot": 1782,
+          "conservative_bot": 1049
+        }
+      }
+    },
+    {
+      "hand_number": 252,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1782,
+        "conservative_bot": 1218
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1762,
+          "conservative_bot": 1208
+        }
+      }
+    },
+    {
+      "hand_number": 253,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1762,
+        "conservative_bot": 1238
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "random_bot": 1742,
+          "conservative_bot": 1228
+        }
+      }
+    },
+    {
+      "hand_number": 254,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1742,
+        "conservative_bot": 1258
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 840,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 850
+        },
+        "final_chips": {
+          "random_bot": 902,
+          "conservative_bot": 1248
+        }
+      }
+    },
+    {
+      "hand_number": 255,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1752,
+        "conservative_bot": 1248
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 1194,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 1248,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "2\u2663",
+        "A\u2666",
+        "7\u2665",
+        "K\u2663",
+        "8\u2660"
+      ],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 3000
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "conservative_bot": 0
+        }
+      }
+    }
+  ]
+}

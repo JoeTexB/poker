@@ -12,7 +12,9 @@ class JoeBeamanBot(PokerBotAPI):
     """
     A JoeBeaman bot that only plays very strong hands and folds frequently with the exception of blinds.
     """
-    
+    #Makes game not work
+    #def tournament_start(self, players: List[str], starting_chips: int):
+
     def __init__(self, name: str):
         super().__init__(name)
         self.hands_played = 0
@@ -28,6 +30,8 @@ class JoeBeamanBot(PokerBotAPI):
     def get_action(self, game_state: GameState, hole_cards: List[Card], 
                    legal_actions: List[PlayerAction], min_bet: int, max_bet: int) -> tuple:
         
+
+
         if len(hole_cards) != 2:
             return PlayerAction.FOLD, 0
 
@@ -48,6 +52,15 @@ class JoeBeamanBot(PokerBotAPI):
                 return PlayerAction.CALL, 0
 
             return PlayerAction.FOLD, 0
+        
+        # lucky 2b$ winning lottery numbers
+        if self.hands_played == 10 or 33 or 41 or 47  or 56:
+            current_pot = game_state.pot
+            raise_amount = min(game_state.current_bet + current_pot // 3, max_bet)
+            raise_amount = max(raise_amount, min_bet)  # Ensure minimum
+            return PlayerAction.RAISE, raise_amount
+       
+
         
         card1, card2 = hole_cards
         
@@ -83,6 +96,10 @@ class JoeBeamanBot(PokerBotAPI):
                                            game_state.player_bets[self.name])
         )
         
+        if (game_state.player_chips[self.name] * 0.25) < game_state.starting_chips:
+            return PlayerAction.FOLD, 0
+
+
         # With premium hands, be aggressive
         if PlayerAction.RAISE in legal_actions:
             # Conservative raise - don't go too big
@@ -91,6 +108,7 @@ class JoeBeamanBot(PokerBotAPI):
             raise_amount = max(raise_amount, min_bet)  # Ensure minimum
             return PlayerAction.RAISE, raise_amount
         
+
         elif PlayerAction.CALL in legal_actions:
             # Always call with premium hands if we can't raise
             return PlayerAction.CALL, 0
@@ -112,3 +130,5 @@ class JoeBeamanBot(PokerBotAPI):
         if self.hands_played % 25 == 0:
             win_rate = self.hands_won / self.hands_played if self.hands_played > 0 else 0
             self.logger.info(f"Conservative play: {self.hands_won}/{self.hands_played} wins ({win_rate:.2%})")
+    
+    
