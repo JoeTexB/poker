@@ -1,0 +1,839 @@
+{
+  "final_standings": [
+    "('conservative_bot', 4000, 1)",
+    "(\"Joe.B's Frankenstien_bot\", 0, 2)",
+    "('random_bot', 0, 3)",
+    "('aggressive_bot', 0, 4)"
+  ],
+  "tournament_duration": 0.026799678802490234,
+  "total_hands": 13,
+  "settings": {
+    "starting_chips": 1000,
+    "tournament_type": "freeze_out",
+    "blind_levels": "10/20",
+    "time_limit": 10.0
+  },
+  "bot_stats": {
+    "conservative_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    },
+    "Joe.B's Frankenstien_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    },
+    "random_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    },
+    "aggressive_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    }
+  },
+  "hand_histories": [
+    {
+      "hand_number": 1,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1000,
+        "Joe.B's Frankenstien_bot": 1000,
+        "aggressive_bot": 1000,
+        "conservative_bot": 1000
+      },
+      "actions": [
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 956,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "7\u2665",
+        "Q\u2666",
+        "10\u2663",
+        "K\u2663",
+        "A\u2663"
+      ],
+      "results": {
+        "winners": [
+          "random_bot",
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "random_bot": 1010,
+          "aggressive_bot": 1010
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "Joe.B's Frankenstien_bot": 980,
+          "aggressive_bot": 0,
+          "conservative_bot": 1000
+        }
+      }
+    },
+    {
+      "hand_number": 2,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1010,
+        "Joe.B's Frankenstien_bot": 980,
+        "aggressive_bot": 1010,
+        "conservative_bot": 1000
+      },
+      "actions": [
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "10\u2666",
+        "9\u2660",
+        "7\u2666",
+        "5\u2665",
+        "A\u2663"
+      ],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 40
+        },
+        "final_chips": {
+          "random_bot": 1010,
+          "Joe.B's Frankenstien_bot": 960,
+          "aggressive_bot": 990,
+          "conservative_bot": 1000
+        }
+      }
+    },
+    {
+      "hand_number": 3,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1010,
+        "Joe.B's Frankenstien_bot": 960,
+        "aggressive_bot": 1030,
+        "conservative_bot": 1000
+      },
+      "actions": [
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 1030,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "K\u2663",
+        "J\u2665",
+        "7\u2666",
+        "3\u2660",
+        "Q\u2663"
+      ],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 2060
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "Joe.B's Frankenstien_bot": 940,
+          "aggressive_bot": 0,
+          "conservative_bot": 1000
+        }
+      }
+    },
+    {
+      "hand_number": 4,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 2060,
+        "Joe.B's Frankenstien_bot": 940,
+        "conservative_bot": 1000
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "5\u2663",
+        "A\u2666",
+        "5\u2666",
+        "7\u2666",
+        "6\u2663"
+      ],
+      "results": {
+        "winners": [
+          "Joe.B's Frankenstien_bot"
+        ],
+        "winnings": {
+          "Joe.B's Frankenstien_bot": 60
+        },
+        "final_chips": {
+          "random_bot": 2040,
+          "Joe.B's Frankenstien_bot": 920,
+          "conservative_bot": 980
+        }
+      }
+    },
+    {
+      "hand_number": 5,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 2040,
+        "Joe.B's Frankenstien_bot": 980,
+        "conservative_bot": 980
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "2\u2666",
+        "3\u2665",
+        "6\u2663",
+        "Q\u2665",
+        "6\u2666"
+      ],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 60
+        },
+        "final_chips": {
+          "random_bot": 2020,
+          "Joe.B's Frankenstien_bot": 960,
+          "conservative_bot": 960
+        }
+      }
+    },
+    {
+      "hand_number": 6,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 2080,
+        "Joe.B's Frankenstien_bot": 960,
+        "conservative_bot": 960
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 60,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 93,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 144,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 223,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 345,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 534,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 827,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 960,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 1787
+        },
+        "final_chips": {
+          "random_bot": 2080,
+          "Joe.B's Frankenstien_bot": 133,
+          "conservative_bot": 0
+        }
+      }
+    },
+    {
+      "hand_number": 7,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 2080,
+        "Joe.B's Frankenstien_bot": 133,
+        "conservative_bot": 1787
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 66,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "Joe.B's Frankenstien_bot"
+        ],
+        "winnings": {
+          "Joe.B's Frankenstien_bot": 106
+        },
+        "final_chips": {
+          "random_bot": 2060,
+          "Joe.B's Frankenstien_bot": 67,
+          "conservative_bot": 1767
+        }
+      }
+    },
+    {
+      "hand_number": 8,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 2060,
+        "Joe.B's Frankenstien_bot": 173,
+        "conservative_bot": 1767
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "raise",
+          "amount": 162,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 192
+        },
+        "final_chips": {
+          "random_bot": 1898,
+          "Joe.B's Frankenstien_bot": 163,
+          "conservative_bot": 1747
+        }
+      }
+    },
+    {
+      "hand_number": 9,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1898,
+        "Joe.B's Frankenstien_bot": 163,
+        "conservative_bot": 1939
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 1928
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "Joe.B's Frankenstien_bot": 153,
+          "conservative_bot": 1919
+        }
+      }
+    },
+    {
+      "hand_number": 10,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 1928,
+        "Joe.B's Frankenstien_bot": 153,
+        "conservative_bot": 1919
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 66,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 2014
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "Joe.B's Frankenstien_bot": 87,
+          "conservative_bot": 1899
+        }
+      }
+    },
+    {
+      "hand_number": 11,
+      "table_id": 1,
+      "players": [
+        "random_bot",
+        "Joe.B's Frankenstien_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "random_bot": 2014,
+        "Joe.B's Frankenstien_bot": 87,
+        "conservative_bot": 1899
+      },
+      "actions": [
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 2044
+        },
+        "final_chips": {
+          "random_bot": 0,
+          "Joe.B's Frankenstien_bot": 77,
+          "conservative_bot": 1879
+        }
+      }
+    },
+    {
+      "hand_number": 12,
+      "table_id": 1,
+      "players": [
+        "Joe.B's Frankenstien_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "Joe.B's Frankenstien_bot": 77,
+        "conservative_bot": 3923
+      },
+      "actions": [
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "Joe.B's Frankenstien_bot"
+        ],
+        "winnings": {
+          "Joe.B's Frankenstien_bot": 50
+        },
+        "final_chips": {
+          "Joe.B's Frankenstien_bot": 37,
+          "conservative_bot": 3913
+        }
+      }
+    },
+    {
+      "hand_number": 13,
+      "table_id": 1,
+      "players": [
+        "Joe.B's Frankenstien_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "Joe.B's Frankenstien_bot": 87,
+        "conservative_bot": 3913
+      },
+      "actions": [
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 60,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe.B's Frankenstien_bot",
+          "action": "raise",
+          "amount": 87,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 136,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "4\u2660",
+        "2\u2665",
+        "9\u2666",
+        "8\u2666",
+        "8\u2665"
+      ],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 223
+        },
+        "final_chips": {
+          "Joe.B's Frankenstien_bot": 0,
+          "conservative_bot": 3777
+        }
+      }
+    }
+  ]
+}

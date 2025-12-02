@@ -1,0 +1,1985 @@
+{
+  "final_standings": [
+    "('conservative_bot', 4000, 1)",
+    "('aggressive_bot', 0, 2)",
+    "(\"Joe's Frankenstien_bot\", 0, 3)",
+    "('random_bot', 0, 4)"
+  ],
+  "tournament_duration": 0.14091706275939941,
+  "total_hands": 39,
+  "settings": {
+    "starting_chips": 1000,
+    "tournament_type": "freeze_out",
+    "blind_levels": "10/20",
+    "time_limit": 10.0
+  },
+  "bot_stats": {
+    "Joe's Frankenstien_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    },
+    "conservative_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    },
+    "random_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    },
+    "aggressive_bot": {
+      "error_count": 0,
+      "timeout_count": 0,
+      "is_disqualified": false,
+      "max_errors": 5,
+      "max_timeouts": 3
+    }
+  },
+  "hand_histories": [
+    {
+      "hand_number": 1,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "random_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 1000,
+        "conservative_bot": 1000,
+        "random_bot": 1000,
+        "Joe's Frankenstien_bot": 1000
+      },
+      "actions": [
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 70
+        },
+        "final_chips": {
+          "aggressive_bot": 960,
+          "conservative_bot": 990,
+          "random_bot": 980,
+          "Joe's Frankenstien_bot": 1000
+        }
+      }
+    },
+    {
+      "hand_number": 2,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "random_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 1030,
+        "conservative_bot": 990,
+        "random_bot": 980,
+        "Joe's Frankenstien_bot": 1000
+      },
+      "actions": [
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 60,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 106,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 1030,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "K\u2665",
+        "Q\u2663",
+        "10\u2665",
+        "8\u2666",
+        "A\u2660"
+      ],
+      "results": {
+        "winners": [
+          "aggressive_bot",
+          "random_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 1058,
+          "random_bot": 1058
+        },
+        "final_chips": {
+          "aggressive_bot": 0,
+          "conservative_bot": 884,
+          "random_bot": 0,
+          "Joe's Frankenstien_bot": 1000
+        }
+      }
+    },
+    {
+      "hand_number": 3,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "random_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 1058,
+        "conservative_bot": 884,
+        "random_bot": 1058,
+        "Joe's Frankenstien_bot": 1000
+      },
+      "actions": [
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "6\u2660",
+        "K\u2660",
+        "10\u2666",
+        "2\u2665",
+        "Q\u2665"
+      ],
+      "results": {
+        "winners": [
+          "random_bot"
+        ],
+        "winnings": {
+          "random_bot": 90
+        },
+        "final_chips": {
+          "aggressive_bot": 1018,
+          "conservative_bot": 874,
+          "random_bot": 1018,
+          "Joe's Frankenstien_bot": 1000
+        }
+      }
+    },
+    {
+      "hand_number": 4,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "random_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 1018,
+        "conservative_bot": 874,
+        "random_bot": 1108,
+        "Joe's Frankenstien_bot": 1000
+      },
+      "actions": [
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "all_in",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "random_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 1148
+        },
+        "final_chips": {
+          "aggressive_bot": 1018,
+          "conservative_bot": 834,
+          "random_bot": 0,
+          "Joe's Frankenstien_bot": 1000
+        }
+      }
+    },
+    {
+      "hand_number": 5,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 1018,
+        "conservative_bot": 1982,
+        "Joe's Frankenstien_bot": 1000
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 75,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 105
+        },
+        "final_chips": {
+          "aggressive_bot": 943,
+          "conservative_bot": 1972,
+          "Joe's Frankenstien_bot": 980
+        }
+      }
+    },
+    {
+      "hand_number": 6,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 1048,
+        "conservative_bot": 1972,
+        "Joe's Frankenstien_bot": 980
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "Q\u2663",
+        "5\u2666",
+        "8\u2666",
+        "3\u2663",
+        "9\u2660"
+      ],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 1028,
+          "conservative_bot": 1962,
+          "Joe's Frankenstien_bot": 960
+        }
+      }
+    },
+    {
+      "hand_number": 7,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 1078,
+        "conservative_bot": 1962,
+        "Joe's Frankenstien_bot": 960
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "J\u2660",
+        "10\u2660",
+        "3\u2663",
+        "7\u2663",
+        "2\u2666"
+      ],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 1058,
+          "conservative_bot": 1952,
+          "Joe's Frankenstien_bot": 940
+        }
+      }
+    },
+    {
+      "hand_number": 8,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 1108,
+        "conservative_bot": 1952,
+        "Joe's Frankenstien_bot": 940
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 60,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "raise",
+          "amount": 90,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 130,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "raise",
+          "amount": 206,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "A\u2665",
+        "9\u2666",
+        "K\u2666",
+        "6\u2665",
+        "4\u2666"
+      ],
+      "results": {
+        "winners": [
+          "Joe's Frankenstien_bot"
+        ],
+        "winnings": {
+          "Joe's Frankenstien_bot": 422
+        },
+        "final_chips": {
+          "aggressive_bot": 902,
+          "conservative_bot": 1942,
+          "Joe's Frankenstien_bot": 734
+        }
+      }
+    },
+    {
+      "hand_number": 9,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 902,
+        "conservative_bot": 1942,
+        "Joe's Frankenstien_bot": 1156
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "5\u2665",
+        "J\u2666",
+        "9\u2665",
+        "2\u2666",
+        "3\u2663"
+      ],
+      "results": {
+        "winners": [
+          "Joe's Frankenstien_bot"
+        ],
+        "winnings": {
+          "Joe's Frankenstien_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 882,
+          "conservative_bot": 1932,
+          "Joe's Frankenstien_bot": 1136
+        }
+      }
+    },
+    {
+      "hand_number": 10,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 882,
+        "conservative_bot": 1932,
+        "Joe's Frankenstien_bot": 1186
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "raise",
+          "amount": 63,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 91,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "raise",
+          "amount": 145,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "5\u2665",
+        "2\u2663",
+        "2\u2666",
+        "3\u2666",
+        "K\u2665"
+      ],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 300
+        },
+        "final_chips": {
+          "aggressive_bot": 737,
+          "conservative_bot": 1922,
+          "Joe's Frankenstien_bot": 1041
+        }
+      }
+    },
+    {
+      "hand_number": 11,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 1037,
+        "conservative_bot": 1922,
+        "Joe's Frankenstien_bot": 1041
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "raise",
+          "amount": 63,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "Joe's Frankenstien_bot"
+        ],
+        "winnings": {
+          "Joe's Frankenstien_bot": 113
+        },
+        "final_chips": {
+          "aggressive_bot": 997,
+          "conservative_bot": 1912,
+          "Joe's Frankenstien_bot": 978
+        }
+      }
+    },
+    {
+      "hand_number": 12,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 997,
+        "conservative_bot": 1912,
+        "Joe's Frankenstien_bot": 1091
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "9\u2663",
+        "4\u2666",
+        "K\u2666",
+        "K\u2665",
+        "5\u2660"
+      ],
+      "results": {
+        "winners": [
+          "Joe's Frankenstien_bot"
+        ],
+        "winnings": {
+          "Joe's Frankenstien_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 977,
+          "conservative_bot": 1902,
+          "Joe's Frankenstien_bot": 1071
+        }
+      }
+    },
+    {
+      "hand_number": 13,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 977,
+        "conservative_bot": 1902,
+        "Joe's Frankenstien_bot": 1121
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "A\u2663",
+        "J\u2666",
+        "10\u2666",
+        "2\u2665",
+        "5\u2660"
+      ],
+      "results": {
+        "winners": [
+          "Joe's Frankenstien_bot"
+        ],
+        "winnings": {
+          "Joe's Frankenstien_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 957,
+          "conservative_bot": 1892,
+          "Joe's Frankenstien_bot": 1101
+        }
+      }
+    },
+    {
+      "hand_number": 14,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 957,
+        "conservative_bot": 1892,
+        "Joe's Frankenstien_bot": 1151
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "10\u2665",
+        "6\u2665",
+        "5\u2665",
+        "7\u2666",
+        "Q\u2665"
+      ],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 937,
+          "conservative_bot": 1882,
+          "Joe's Frankenstien_bot": 1131
+        }
+      }
+    },
+    {
+      "hand_number": 15,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 987,
+        "conservative_bot": 1882,
+        "Joe's Frankenstien_bot": 1131
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "Joe's Frankenstien_bot"
+        ],
+        "winnings": {
+          "Joe's Frankenstien_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 987,
+          "conservative_bot": 1872,
+          "Joe's Frankenstien_bot": 1091
+        }
+      }
+    },
+    {
+      "hand_number": 16,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot",
+        "Joe's Frankenstien_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 987,
+        "conservative_bot": 1872,
+        "Joe's Frankenstien_bot": 1141
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 63,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "raise",
+          "amount": 104,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 155,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 262,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "raise",
+          "amount": 435,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 812,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "raise",
+          "amount": 1141,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "Joe's Frankenstien_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 2388
+        },
+        "final_chips": {
+          "aggressive_bot": 552,
+          "conservative_bot": 1060,
+          "Joe's Frankenstien_bot": 0
+        }
+      }
+    },
+    {
+      "hand_number": 17,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 552,
+        "conservative_bot": 3448
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 512,
+          "conservative_bot": 3438
+        }
+      }
+    },
+    {
+      "hand_number": 18,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 562,
+        "conservative_bot": 3438
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 522,
+          "conservative_bot": 3428
+        }
+      }
+    },
+    {
+      "hand_number": 19,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 572,
+        "conservative_bot": 3428
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "aggressive_bot": 552,
+          "conservative_bot": 3418
+        }
+      }
+    },
+    {
+      "hand_number": 20,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 552,
+        "conservative_bot": 3448
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 30
+        },
+        "final_chips": {
+          "aggressive_bot": 532,
+          "conservative_bot": 3438
+        }
+      }
+    },
+    {
+      "hand_number": 21,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 562,
+        "conservative_bot": 3438
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 522,
+          "conservative_bot": 3428
+        }
+      }
+    },
+    {
+      "hand_number": 22,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 572,
+        "conservative_bot": 3428
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 60,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "9\u2666",
+        "10\u2663",
+        "7\u2663",
+        "2\u2665",
+        "5\u2663"
+      ],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 120
+        },
+        "final_chips": {
+          "aggressive_bot": 512,
+          "conservative_bot": 3368
+        }
+      }
+    },
+    {
+      "hand_number": 23,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 512,
+        "conservative_bot": 3488
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 50,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 60
+        },
+        "final_chips": {
+          "aggressive_bot": 462,
+          "conservative_bot": 3478
+        }
+      }
+    },
+    {
+      "hand_number": 24,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 522,
+        "conservative_bot": 3478
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 30
+        },
+        "final_chips": {
+          "aggressive_bot": 502,
+          "conservative_bot": 3468
+        }
+      }
+    },
+    {
+      "hand_number": 25,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 532,
+        "conservative_bot": 3468
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 50,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 70,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "10\u2665",
+        "2\u2666",
+        "6\u2660",
+        "K\u2665",
+        "8\u2665"
+      ],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 140
+        },
+        "final_chips": {
+          "aggressive_bot": 462,
+          "conservative_bot": 3398
+        }
+      }
+    },
+    {
+      "hand_number": 26,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 602,
+        "conservative_bot": 3398
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 30
+        },
+        "final_chips": {
+          "aggressive_bot": 582,
+          "conservative_bot": 3388
+        }
+      }
+    },
+    {
+      "hand_number": 27,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 612,
+        "conservative_bot": 3388
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 30
+        },
+        "final_chips": {
+          "aggressive_bot": 592,
+          "conservative_bot": 3378
+        }
+      }
+    },
+    {
+      "hand_number": 28,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 592,
+        "conservative_bot": 3408
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 50,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 60
+        },
+        "final_chips": {
+          "aggressive_bot": 542,
+          "conservative_bot": 3398
+        }
+      }
+    },
+    {
+      "hand_number": 29,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 602,
+        "conservative_bot": 3398
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 50,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 60
+        },
+        "final_chips": {
+          "aggressive_bot": 552,
+          "conservative_bot": 3388
+        }
+      }
+    },
+    {
+      "hand_number": 30,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 612,
+        "conservative_bot": 3388
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 30
+        },
+        "final_chips": {
+          "aggressive_bot": 592,
+          "conservative_bot": 3378
+        }
+      }
+    },
+    {
+      "hand_number": 31,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 622,
+        "conservative_bot": 3378
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 50,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 60
+        },
+        "final_chips": {
+          "aggressive_bot": 572,
+          "conservative_bot": 3368
+        }
+      }
+    },
+    {
+      "hand_number": 32,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 632,
+        "conservative_bot": 3368
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "call",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "J\u2663",
+        "A\u2666",
+        "8\u2663",
+        "7\u2666",
+        "3\u2666"
+      ],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 80
+        },
+        "final_chips": {
+          "aggressive_bot": 592,
+          "conservative_bot": 3328
+        }
+      }
+    },
+    {
+      "hand_number": 33,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 592,
+        "conservative_bot": 3408
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 30
+        },
+        "final_chips": {
+          "aggressive_bot": 572,
+          "conservative_bot": 3398
+        }
+      }
+    },
+    {
+      "hand_number": 34,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 602,
+        "conservative_bot": 3398
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 30
+        },
+        "final_chips": {
+          "aggressive_bot": 582,
+          "conservative_bot": 3388
+        }
+      }
+    },
+    {
+      "hand_number": 35,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 612,
+        "conservative_bot": 3388
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 30
+        },
+        "final_chips": {
+          "aggressive_bot": 592,
+          "conservative_bot": 3378
+        }
+      }
+    },
+    {
+      "hand_number": 36,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 622,
+        "conservative_bot": 3378
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 582,
+          "conservative_bot": 3368
+        }
+      }
+    },
+    {
+      "hand_number": 37,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 632,
+        "conservative_bot": 3368
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "check",
+          "amount": 0,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 30
+        },
+        "final_chips": {
+          "aggressive_bot": 612,
+          "conservative_bot": 3358
+        }
+      }
+    },
+    {
+      "hand_number": 38,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 642,
+        "conservative_bot": 3358
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "fold",
+          "amount": 0,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [],
+      "results": {
+        "winners": [
+          "aggressive_bot"
+        ],
+        "winnings": {
+          "aggressive_bot": 50
+        },
+        "final_chips": {
+          "aggressive_bot": 602,
+          "conservative_bot": 3348
+        }
+      }
+    },
+    {
+      "hand_number": 39,
+      "table_id": 1,
+      "players": [
+        "aggressive_bot",
+        "conservative_bot"
+      ],
+      "starting_chips": {
+        "aggressive_bot": 652,
+        "conservative_bot": 3348
+      },
+      "actions": [
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 40,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 60,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 110,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 166,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 304,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 460,
+          "round": "preflop"
+        },
+        {
+          "player": "aggressive_bot",
+          "action": "raise",
+          "amount": 652,
+          "round": "preflop"
+        },
+        {
+          "player": "conservative_bot",
+          "action": "raise",
+          "amount": 1022,
+          "round": "preflop"
+        }
+      ],
+      "community_cards": [
+        "8\u2660",
+        "9\u2660",
+        "7\u2663",
+        "8\u2666",
+        "2\u2663"
+      ],
+      "results": {
+        "winners": [
+          "conservative_bot"
+        ],
+        "winnings": {
+          "conservative_bot": 1674
+        },
+        "final_chips": {
+          "aggressive_bot": 0,
+          "conservative_bot": 2326
+        }
+      }
+    }
+  ]
+}

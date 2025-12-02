@@ -179,3 +179,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+logs/
+players/*
+!players/aggressive_bot.py
+!players/conservitive_bot.py
+!players/random_bot.py
+.DS_Store
