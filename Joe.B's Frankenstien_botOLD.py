@@ -96,8 +96,9 @@ class JoeBeamanBot(PokerBotAPI):
                                            game_state.player_bets[self.name])
         )
         
-        if (game_state.player_chips[self.name] * 0.25) < game_state.starting_chips:
-            return PlayerAction.FOLD, 0
+
+        #if (game_state.player_chips[self.name] * 0.25) < game_state.starting_chips:
+         #   return PlayerAction.FOLD, 0
 
 
         # With premium hands, be aggressive
