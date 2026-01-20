@@ -381,6 +381,9 @@ class PokerGame:
             self.total_pot_contributions[player] += all_in_amount
             new_bet = self.player_bets[player]
             if new_bet > self.current_bet:
+                actual_raise = new_bet - self.current_bet
+                if actual_raise >= self.min_raise:
+                    self.min_raise = actual_raise
                 self.current_bet = new_bet
                 self.players_acted.clear() 
             self.players_acted.add(player)
@@ -568,8 +571,8 @@ class PokerGame:
             if player_chips >= to_call:
                 legal_actions.append(PlayerAction.CALL)
         
-        # Can raise if we have chips beyond the call amount
-        if player_chips > to_call:
+        # Can raise if we have chips to meet the minimum raise
+        if (player_chips + player_bet) >= game_state.min_bet:
             legal_actions.append(PlayerAction.RAISE)
         
         # Can always go all-in if we have chips
