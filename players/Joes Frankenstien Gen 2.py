@@ -26,10 +26,14 @@ class JoeBot(PokerBotAPI):
         
         # Define strong starting hands
         self.premium_hands = [
-            (Rank.ACE, Rank.ACE), (Rank.KING, Rank.KING), (Rank.QUEEN, Rank.QUEEN),
+            (Rank.KING, Rank.KING), (Rank.QUEEN, Rank.QUEEN),
             (Rank.JACK, Rank.JACK), (Rank.TEN, Rank.TEN), (Rank.NINE, Rank.NINE),
             (Rank.ACE, Rank.KING), (Rank.ACE, Rank.QUEEN), (Rank.ACE, Rank.JACK),
             (Rank.KING, Rank.QUEEN), (Rank.KING, Rank.JACK), (Rank.QUEEN, Rank.JACK)
+        ]
+
+        self.allin_hands = [
+            (Rank.ACE, Rank.ACE)
         ]
     
     def get_action(self, game_state: GameState, hole_cards: List[Card], 
@@ -67,7 +71,7 @@ class JoeBot(PokerBotAPI):
         card1, card2 = hole_cards
 
         
-
+        
         
        
 
@@ -82,6 +86,10 @@ class JoeBot(PokerBotAPI):
         is_suited_premium = (card1.suit == card2.suit and 
                            (hand_tuple1 in self.premium_hands or 
                             hand_tuple2 in self.premium_hands))
+
+
+        #All in with pocket Aces
+        is_allin = (hand_tuple1 in self.allin_hands)
         
         #Lucky lottery numbers to play on
         is_lucky_numbers = (self.hands_played in [10, 33, 41, 47, 56])
@@ -90,9 +98,15 @@ class JoeBot(PokerBotAPI):
         is_high_pocket_pair = (card1.rank == card2.rank and 
                               card1.rank.value >= 9)  # 9s or better
         
+        if (is_allin):
+            return PlayerAction.ALL_IN, 0
+
+
         # Only play premium hands or high pocket pairs
         if not (is_premium or is_suited_premium or is_high_pocket_pair or is_lucky_numbers):
             return PlayerAction.FOLD, 0
+
+        
         
         # We have a good hand - decide what to do
         # Prioritize actions: RAISE, then CALL, then CHECK, otherwise FOLD
@@ -115,6 +129,7 @@ class JoeBot(PokerBotAPI):
             elif PlayerAction.CHECK in legal_actions:
                 return PlayerAction.CHECK, 0
         
+
         if PlayerAction.CALL in legal_actions:
             return PlayerAction.CALL, 0
         
