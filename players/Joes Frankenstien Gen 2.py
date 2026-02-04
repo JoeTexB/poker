@@ -1,6 +1,7 @@
 """
 Joe's Frankenstien Poker Bot only plays strong hands and folds majority of the time.
 """
+import random
 from typing import List, Dict, Any
 
 from bot_api import PokerBotAPI, PlayerAction, GameInfoAPI
@@ -97,47 +98,67 @@ class JoeBot(PokerBotAPI):
         # Check for high pocket pairs
         is_high_pocket_pair = (card1.rank == card2.rank and 
                               card1.rank.value >= 9)  # 9s or better
-        
+        #go all in if it's pocket aces
         if (is_allin):
             return PlayerAction.ALL_IN, 0
 
-
-        # Only play premium hands or high pocket pairs
-        if not (is_premium or is_suited_premium or is_high_pocket_pair or is_lucky_numbers):
-            return PlayerAction.FOLD, 0
+        if self.hands_played < 70:
+            # Only play premium hands or high pocket pairs
+            if not (is_premium or is_suited_premium or is_high_pocket_pair or is_lucky_numbers):
+                return PlayerAction.FOLD, 0
 
         
-        
-        # We have a good hand - decide what to do
-        # Prioritize actions: RAISE, then CALL, then CHECK, otherwise FOLD
-
-        if PlayerAction.RAISE in legal_actions:
-            # Conservative raise - don't go too big
-            current_pot = game_state.pot
-            # Ensure raise amount is at least min_bet and within max_bet
-            # Attempt to raise by a third of the pot, but adjust if it's too small or too large
-            # The current_bet + 2 * big_blind is a common minimum raise amount
-            min_raise_amount = game_state.current_bet + game_state.big_blind
-            suggested_raise = max(min_raise_amount, game_state.current_bet + current_pot // 3)
-            raise_amount = min(suggested_raise, max_bet)
             
-            # Ensure raise amount is actually greater than current_bet if raising
-            if raise_amount > game_state.current_bet:
-                return PlayerAction.RAISE, raise_amount
-            elif PlayerAction.CALL in legal_actions:
-                return PlayerAction.CALL, 0
-            elif PlayerAction.CHECK in legal_actions:
-                return PlayerAction.CHECK, 0
-        
+            # We have a good hand - decide what to do
+            # Prioritize actions: RAISE, then CALL, then CHECK, otherwise FOLD
 
-        if PlayerAction.CALL in legal_actions:
-            return PlayerAction.CALL, 0
-        
-        if PlayerAction.CHECK in legal_actions:
-            return PlayerAction.CHECK, 0
-        
-        if PlayerAction.FOLD in legal_actions:
-            return PlayerAction.FOLD, 0
+            if PlayerAction.RAISE in legal_actions:
+                # Conservative raise - don't go too big
+                current_pot = game_state.pot
+                # Ensure raise amount is at least min_bet and within max_bet
+                # Attempt to raise by a third of the pot, but adjust if it's too small or too large
+                # The current_bet + 2 * big_blind is a common minimum raise amount
+                min_raise_amount = game_state.current_bet + game_state.big_blind
+                suggested_raise = max(min_raise_amount, game_state.current_bet + current_pot // 3)
+                raise_amount = min(suggested_raise, max_bet)
+                
+                # Ensure raise amount is actually greater than current_bet if raising
+                if raise_amount > game_state.current_bet:
+                    return PlayerAction.RAISE, raise_amount
+                elif PlayerAction.CALL in legal_actions:
+                    return PlayerAction.CALL, 0
+                elif PlayerAction.CHECK in legal_actions:
+                    return PlayerAction.CHECK, 0
+            
+
+            if PlayerAction.CALL in legal_actions:
+                return PlayerAction.CALL, 0
+            
+            if PlayerAction.CHECK in legal_actions:
+                return PlayerAction.CHECK, 0
+            
+            if PlayerAction.FOLD in legal_actions:
+                return PlayerAction.FOLD, 0
+
+        #begin super agressive late game
+        if self.hands_played > 70:
+            if PlayerAction.RAISE in legal_actions:
+                # Raise 3-4x the big blind
+                raise_amount = min(random.randint(100, 300) * game_state.big_blind, max_bet)
+                raise_amount = max(raise_amount, min_bet)
+
+                # Ensure raise amount is actually greater than current_bet if raising
+                if raise_amount > game_state.current_bet:
+                    return PlayerAction.RAISE, raise_amount
+                elif PlayerAction.CALL in legal_actions:
+                    return PlayerAction.CALL, 0
+                elif PlayerAction.CHECK in legal_actions:
+                    return PlayerAction.CHECK, 0
+
+            if PlayerAction.CALL in legal_actions:
+                return PlayerAction.CALL, 0
+            if PlayerAction.CHECK in legal_actions:
+                return PlayerAction.CHECK, 0
 
         # If no other legal action, fold as fallback (should be handled by game engine anyway)
         return PlayerAction.FOLD, 0
@@ -153,3 +174,13 @@ class JoeBot(PokerBotAPI):
         if self.hands_played % 8 == 0:
             win_rate = self.hands_won / self.hands_played if self.hands_played > 0 else 0
             self.logger.info(f"Conservative play: {self.hands_won}/{self.hands_played} wins ({win_rate:.2%})")
+
+
+
+#Joe's Frankenstien Poker Bot
+#Based on conservative bot and it's raising tactics and behavior
+#Folds first 5 hands
+#Only plays on premium hands or suited hands
+#Goes all in with pocket aces
+#Plays on hands 10,33,41,47,56 based on the winniong lottery numbers of the largest jackpot
+#After 70 hands switches to super aggressive mode raising 100-300x big blind
